@@ -1,0 +1,28 @@
+# This file is for the default attributes for each generated world [if enabled]
+# Otherwise, this file will be used across all worlds if you have it enabled
+
+# If "use-default-attributes" is active, this will be used across all worlds and seperate files will not be generated for each world created.
+# If the above is disabled, seperate files will be generated with the same format for each world inside "worlds" in the config file. 
+# This, however, will be the baseline for each generation.
+
+# If "use-built-in-attributes" this file has no worth, as the plugin will take over all attributes with the it's own.
+
+attributes:
+   atmosphere:
+      # Allows players to have their helmet off.
+      air-based: false
+      # If air-based is false, how much air should it reduct?
+      air-reduction: 1.0
+ 
+   damage:
+      # If not air-based, how much damage should we inflict? [2.0 = 1 heart | 1.0 = 1/2 heart]
+      # [Every] For every __ seconds. (How many seconds between each tick of damage?)
+      helmet-off: 2.0 # [Default: 2.0]
+      no-air: 1.0 # [Default: 1.0]
+      every: 2.0 #[Default: 2.0]
+    
+   # What is the temperature of the planet? [5.0 = Earth | 0.0 = Freezing | 10.0 = Exetreme Heat]
+   temperature: 5.0
+   
+   #What rocket tier is required to arrive here?
+   rocket-tier: 1.0

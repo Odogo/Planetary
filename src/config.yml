@@ -1,0 +1,19 @@
+# Planetary Configuration File
+# Version: 0.1
+
+# Specifies to the plugin what worlds should be classified as a planet.
+# Specifications to these planets will be made in a seperate file.
+# If a world does not exist, it will disable. However, it will create a world if "Moon" is listed [if not created]
+worlds:
+ - Moon
+ # - Enter_World_Name
+
+# Uses the built-in attributes for listed worlds [above].
+# This stops the plugin from creating files for each world that can be editted to change that world's properties.
+# Default: true
+use-default-attributes: true
+
+# Uses the hard-coded defined attributes. If false, you can change them in the attributes file.
+# Default: true
+use-built-in-attributes: true
+
