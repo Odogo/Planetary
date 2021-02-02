@@ -18,7 +18,7 @@ attributes:
       # If not air-based, how much damage should we inflict? [2.0 = 1 heart | 1.0 = 1/2 heart]
       # [Every] For every __ seconds. (How many seconds between each tick of damage?)
       helmet-off: 2.0 # [Default: 2.0]
-      no-air: 1.0 # [Default: 1.0]
+      no-air: 2.0 # [Default: 1.0]
       every: 2.0 #[Default: 2.0]
     
    # What is the temperature of the planet? [5.0 = Earth | 0.0 = Freezing | 10.0 = Exetreme Heat]
