@@ -44,6 +44,7 @@ public class ConfigData {
 	public boolean validateWorld(String name) {
 		World world = plugin.getServer().getWorld(name);
 		if(world != null) return true;
+
 		NullPointerException e = new NullPointerException("'" + name + "' does not exist. Rename or check it's case.");
 		e.printStackTrace(); return false;
 	}
